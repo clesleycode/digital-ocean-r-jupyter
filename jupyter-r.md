@@ -12,9 +12,15 @@ Before you begin this guide you'll need the following:
 - [How to Install R](https://www.digitalocean.com/community/tutorials/how-to-install-r-on-ubuntu-16-04-2)
 - [How to Setup Jupyter Notebook with Python3](https://www.digitalocean.com/community/tutorials/how-to-set-up-jupyter-notebook-for-python-3)
 
+## Getting Started
 
-We will soon submit the IRkernel package to CRAN. Until then, you can install it via the devtools package:
+We will soon submit the IRkernel package to CRAN. Until then, you can install it via the devtools package. So first, on your terminal or bash, invoke the R kernel with the following command:
 
+``` bash
+R
+```
+
+Then, in your R kernel, install the `devtools` package, as follows:
 
 ```R
 install.packages('devtools')
